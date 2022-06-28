@@ -1,0 +1,356 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #272D38;
+;
+}
+
+.main-wrapper{
+    width: 60vw;
+    margin: 46px auto;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 105px;
+}
+header img{
+    position: absolute;
+    top: -46px;
+    left: -409px;
+}
+.logo{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+}
+header nav ul li a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+header nav ul li a:hover{
+    color: aquamarine;
+    font-size: 24px;
+}
+
+
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 136px;
+    flex-wrap: wrap;
+    gap: 75px;
+
+
+}
+h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 24px;
+    margin-top: 42px;
+}
+.block p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 39px;
+    text-transform: capitalize;
+}
+.block button{
+    background: #8EADD5;
+    border-radius: 8px;
+    padding: 10px 31px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 49px;
+    cursor: pointer;
+
+}
+.block div{
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 300px;
+    max-width: 600px;
+}
+.block >img{
+    width: 450px;
+    height: 450px;
+}
+.text{
+    color: #667085;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 149px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.company-logo{
+    background: #F6F6F6;
+    display: flex;
+    max-width: 915px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 136px;
+    border-radius: 8px;
+    flex-wrap: nowrap;
+}
+.company-logo img{
+    margin: 22px 25px;
+}
+
+
+.block-reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 136px;
+}
+.block-reviews .review{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.block-reviews h1{
+    text-align: center;
+}
+.box-review{
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-basis: 300px;
+    border-radius: 20px;
+}
+.box-review img{
+    margin: 32px 108px 8px;
+}
+.box-review h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 27px;
+}
+.box-review p{
+    margin: 0 32px 32px;
+    text-transform: capitalize;
+}
+
+.ellipse{
+    position: absolute;
+    right: 0;
+    top: 700px;
+
+}
+.block4{
+    background: #F6F6F6;
+    border-radius: 20px;
+}
+
+footer{
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+}
+footer .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 105px ;
+    flex-wrap: wrap;
+}
+footer h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+footer .list ul li a{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+}
+footer li{
+    margin-bottom: 24px;
+}
+a{
+    color: #1F2123;
+}
+footer p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 105px;
+}
+footer a:hover{
+    color: #00FFF2;
+}
+
+.header-burger{
+    display: none;
+}
+
+@media (max-width: 1176px) {
+    .block3 div img{
+        transform: rotate(90deg);
+    }
+    .block3{
+        text-align: center;
+    }
+    .block-reviews h1{
+        text-align: center;
+    }
+    .img-1{
+        width: 450px;
+        margin: 0 ;
+    }
+}
+
+@media (max-width: 1031px) {
+    .block2{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .block{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .block div{
+        text-align: center;
+    }
+    .block div img{
+        transform: rotate(90deg);
+    }
+    .company-logo a img {
+        height: 25px;
+        margin: 22px 5px ;
+    }
+}
+
+
+@media (max-width: 768px){
+    .header-burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 100;
+    }
+    .header-burger:before, .header-burger:after{
+        content: "";
+        background-color: #1F2123;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+    }
+    .header-burger:before{
+        top: 0;
+    }
+    .header-burger:after{
+        bottom: 0;
+    }
+    .header-burger span{
+        position: absolute;
+        background-color: #1F2123;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+    .header-burger:active~nav{
+        display: block;
+
+    }
+    nav{
+        position: absolute;
+        top: 38px;
+        background-color: #8EADD5;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+    header ul{
+        display: block;
+        text-transform: uppercase;
+    }
+    header li{
+        padding: 10px;
+        margin-top: 4px;
+        border-bottom: 1px solid aliceblue;
+    }
+    .header-burger:active span{
+        display: none;
+
+    }
+    .header-burger:active:before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header-burger:active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .main-wrapper{
+        width: 95%;
+    }
+    footer .list{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    .block div p{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 428px){
+    .logo{
+        font-size: 14px;
+    }
+    .block>img{
+        width: 358px;
+        height: 358px;
+    }
+    .img-2{
+        display: none;
+    }
+    footer{}
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .block{
+        gap: 5px;
+    }
+}
