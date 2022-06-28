@@ -5,7 +5,7 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     list-style: none;
-    color: #272D38;
+    color: grey;
 ;
 }
 
@@ -13,6 +13,7 @@
     width: 60vw;
     margin: 46px auto;
     position: relative;
+
 }
 header{
     display: flex;
@@ -41,7 +42,7 @@ header nav ul li a {
     line-height: 28px;
 }
 header nav ul li a:hover{
-    color: aquamarine;
+    color: lightcoral;
     font-size: 24px;
 }
 
@@ -63,6 +64,7 @@ h1{
     line-height: 64px;
     margin-bottom: 24px;
     margin-top: 42px;
+    color: midnightblue;
 }
 .block p{
     font-size: 18px;
@@ -72,7 +74,7 @@ h1{
     text-transform: capitalize;
 }
 .block button{
-    background: #8EADD5;
+    background: maroon;
     border-radius: 8px;
     padding: 10px 31px;
     border: none;
@@ -107,7 +109,7 @@ h1{
 }
 
 .company-logo{
-    background: #F6F6F6;
+    background: rosybrown;
     display: flex;
     max-width: 915px;
     flex-direction: row;
@@ -139,7 +141,7 @@ h1{
     text-align: center;
 }
 .box-review{
-    background: #F6F6F6;
+    background: rosybrown;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -168,12 +170,12 @@ h1{
 
 }
 .block4{
-    background: #F6F6F6;
+    background: rosybrown;
     border-radius: 20px;
 }
 
 footer{
-    background: #F6F6F6;
+    background: rosybrown;
     display: flex;
     flex-direction: column;
 }
